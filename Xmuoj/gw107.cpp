@@ -2,7 +2,7 @@
  * @Author: cdf
  * @Date: 2025-04-18 23:08:20
  * @LastEditors: cdf
- * @LastEditTime: 2025-04-18 23:08:23
+ * @LastEditTime: 2025-04-18 23:14:00
  * @Description: 输出前面 K 大的数字
  */
 
@@ -26,7 +26,7 @@ int main() {
     cin >> k;
     while (k--)
     {
-        cout << que.top() << ' ';
+        cout << que.top() << endl;
         que.pop();
     }
     
