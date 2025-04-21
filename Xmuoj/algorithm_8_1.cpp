@@ -2,7 +2,7 @@
  * @Author: cdf
  * @Date: 2025-04-21 20:26:21
  * @LastEditors: cdf
- * @LastEditTime: 2025-04-21 21:23:22
+ * @LastEditTime: 2025-04-21 21:27:45
  * @Description: 算法设计与分析_实验8_法水力量
  */
 
@@ -23,7 +23,6 @@ int main() {
     int ans = 0;
     for (int i = 0; i < n - 1; i++)
     {
-        int max_idx =  i + 1;
         for (int j = i + 1; j < n; j++)
         {
             ans = max (ans, min(nums[i], nums[j]) * (j - i));
